@@ -2,12 +2,12 @@ Package: hai-pxxx-ai
 Version: 1.1.3
 Architecture: arm64
 Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
-Depends: libc6 (>= 2.17), nginx, curl
+Depends: libc6 (>= 2.17), nginx, curl, tailscale, podman
 Filename: pool/main/hai-pxxx-ai_1.1.3_arm64.deb
-Size: 49326160
-MD5sum: 2fcd3aecb7085b3dae65f8873b854221
-SHA1: d757ab7f5319ae503fb25358ab7b2ffa4b933831
-SHA256: e1b02cf57369d1a9b2d8375459918514b92451e67a5f853595bb1cdf34c168de
+Size: 49320164
+MD5sum: 32a8e84c016ab1e0af2104d07fcab506
+SHA1: 99516afe51407d6970f911586aabb6ec63289ca5
+SHA256: 2805eb17df00f10f988d0ce58399c0b167193b471bf88acbdc3a72546331c91f
 Section: base
 Priority: optional
 Description: Application hai-pxxx-ai compilée avec Nuitka et configurée avec Nginx et Tailscale.
