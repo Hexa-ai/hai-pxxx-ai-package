@@ -3,7 +3,7 @@
 rm dists/bookworm/main/binary-arm64/Packages
 rm dists/bookworm/main/binary-arm64/Packages.gz
 DIST="bookworm"
-YOUR_GPG_KEY_ID="D989CDF6E68344B8DCB0A6DD0F7E47F2F78E4BC1" # Ton ID de clé GPG
+YOUR_GPG_KEY_ID="9D6564E7E5C6D079052DBEFF51376752E18F354A" # Ton ID de clé GPG
 REPO_ROOT=$(pwd) # S'assure qu'on est à la racine du repo git (ex: /home/admin/test/hello)
 
 echo "Updating repository for $DIST (arm64 only)..."
