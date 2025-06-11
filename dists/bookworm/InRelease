@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Mon Depot APT Personnalise
+Label: Mon Depot
+Suite: bookworm
+Codename: bookworm
+Components: main
+Architectures: arm64
+Date: Wed, 11 Jun 2025 15:12:06 +0000
+MD5Sum:
+ bc91e28ca97b3661d86df518b6401eef      521 main/binary-arm64/Packages
+ d6e736e9734ecfd36076bf59e44633be      408 main/binary-arm64/Packages.gz
+SHA1:
+ eeae8a314ba183bd6a3b8fd912f6a9caeb8ae9c8      521 main/binary-arm64/Packages
+ 7cc16ea99d4291c3575ae0a225faa8a2eac6a0a7      408 main/binary-arm64/Packages.gz
+SHA256:
+ ca5412a1e3c47f1e333201a89a8ba4814a34ae0ac95132f3cc9c4c165234de71      521 main/binary-arm64/Packages
+ 52e13f0e4a6c5b6376fa3a35f239ae913889788950b8e9ba3599ecd23225c4bc      408 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEnWVk5+XG0HkFLb7/UTdnUuGPNUoFAmhJnMYACgkQUTdnUuGP
+NUoAAw//diC0n3GSn204AfiaALVVSeOXJA18TZLXS8G0mFe0EhuUq3XyUBbIgAUx
+/RIPJd/9rjnh9+PXJcvMtqtdxAzZLY5M2nbe7zyS5hhRX7dSoClNKQvDmHzJuxEP
+HoYmGUk7+4XoBQbbsOV9SU0XfNjBcGYMnxb+JGbDY1QLiZDHrNGvaCid3dVnDfnV
+/nDgU+LjCFNdxSNq0a7eUm8GRMpTO9J3fNVBbdsa6TFDQtrTM13luDbpj54fnffD
+k6viFdb24aKh+iFC5kk7rAKoqMIfLz34bJkzSXPzml7IE0T9gwk0of6DRQvkSXCl
+vx5Fysjw/8S/5VGVyIYHte8/iM1Z+nWJLuuO0AqcibgGFVNxgRyh68bBCZakrwgZ
+ETQPb+Ko/uqcpLmDGqS91ERkKBqnFR/IXKKwCD0rOHlr8m5IDD68S+UJ30zeWufT
+5JxtU6qUWo0KtqjDETFCk1HW4oysIZQ64l9fpmIfCUoAYJLRQaRmfbpktSkfQPNa
+6mAuGiK+yUzzD+lQe8LWvwlx+PWxAfR4m4RStPNiMzZAl99m+nErys+K1G7g1YaA
+J9Lyho7nBcCe3BP/hAeKRUv/5N6eZ97K5oal6SoIndwbgIFpJ06gmJV+ytcmcy/Z
+y2bWLLwOzDmFelMJxZ9Cv/6INwzTZH4C9gzrUzy3G47LfEgwoyg=
+=TuQq
+-----END PGP SIGNATURE-----
