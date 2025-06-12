@@ -40,3 +40,17 @@ Section: base
 Priority: optional
 Description: Ajout de nouvelles fonctionnalités (Ajout de CODESYS), correctifs et améliorations (Correction de l'affichage de la version actuelle de la page d'accueil)
 
+Package: hai-pxxx-ai
+Version: 1.1.5
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.17), nginx, curl, tailscale, podman, codesyscontrol
+Filename: pool/main/hai-pxxx-ai_1.1.5_arm64.deb
+Size: 49294212
+MD5sum: 3476f618e6f4076f0fadc95496920191
+SHA1: 27ca90025078fbb6e1dd64c6a87b2f53c7b5346c
+SHA256: 7eba21e624ad5df11d335829f524ef338f03a9d0e0c7951491ab9038cbbb3b01
+Section: base
+Priority: optional
+Description: Correctifs et améliorations (Nettoyage du répertoire utilisateur, suppression de la swap, etc.)
+
