@@ -12,3 +12,17 @@ Section: base
 Priority: optional
 Description: Application hai-pxxx-ai compilée avec Nuitka et configurée avec Nginx et Tailscale.
 
+Package: hai-pxxx-ai
+Version: 1.1.4
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.17), nginx, curl, tailscale, podman
+Filename: pool/main/hai-pxxx-ai_1.1.4_arm64.deb
+Size: 81094080
+MD5sum: 7f99f9c073c8511aba0923afebbcd31c
+SHA1: 48fc5dc6a57d3337cb9d9fb31b0a0326c2914189
+SHA256: 910284d4f859be44489bd1667fa4a5c40b6da7cb88e8317848663cd538d2d42f
+Section: base
+Priority: optional
+Description: Ajout de nouvelles fonctionnalités (Ajout de CODESYS), correctifs et améliorations (Correction de l'affichage de la version actuelle de la page d'accueil)
+

@@ -4,13 +4,13 @@ Suite: bookworm
 Codename: bookworm
 Components: main
 Architectures: arm64
-Date: Wed, 11 Jun 2025 15:12:06 +0000
+Date: Thu, 12 Jun 2025 09:38:29 +0000
 MD5Sum:
- bc91e28ca97b3661d86df518b6401eef      521 main/binary-arm64/Packages
- d6e736e9734ecfd36076bf59e44633be      408 main/binary-arm64/Packages.gz
+ 0acb2167fc73a97f8cd8d8fa3f4ea581     1113 main/binary-arm64/Packages
+ 6aa9da05c104a02b107c8884bfe52de2      619 main/binary-arm64/Packages.gz
 SHA1:
- eeae8a314ba183bd6a3b8fd912f6a9caeb8ae9c8      521 main/binary-arm64/Packages
- 7cc16ea99d4291c3575ae0a225faa8a2eac6a0a7      408 main/binary-arm64/Packages.gz
+ bde13b55e9699cbbc6493fd047f95a7e079fec95     1113 main/binary-arm64/Packages
+ a27bebee6248bcc3f851f0b5464ba5e728804b58      619 main/binary-arm64/Packages.gz
 SHA256:
- ca5412a1e3c47f1e333201a89a8ba4814a34ae0ac95132f3cc9c4c165234de71      521 main/binary-arm64/Packages
- 52e13f0e4a6c5b6376fa3a35f239ae913889788950b8e9ba3599ecd23225c4bc      408 main/binary-arm64/Packages.gz
+ 70e970f1adf5332510aa6e47bad5136b144f756ba1b301c9c6ff155af0a643ae     1113 main/binary-arm64/Packages
+ ffb808e2768ae3df6e97bbbf2940259fa26d5483655f2a0cf8006721e035693b      619 main/binary-arm64/Packages.gz
