@@ -32,10 +32,10 @@ Architecture: arm64
 Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
 Depends: libc6 (>= 2.17), nginx, curl, tailscale, podman, codesyscontrol
 Filename: pool/main/hai-pxxx-ai_1.1.4_arm64.deb
-Size: 81088900
-MD5sum: cae2cc914dd7851b35be6ed5e4dc12c8
-SHA1: a601be968b1d63dfc964c7a4090d94b7f8d8e398
-SHA256: e1899e7ef3c9c886f93977f5dc397f8bc908fdba4541fe9378d38c3289e5a296
+Size: 49322344
+MD5sum: 007c08428d450ff035ad0d01c7144ca1
+SHA1: 8bd9759c9cf0c2e1e887ffc477d436823f69190a
+SHA256: 096855af147fba5bb2b56ae49a4c2ed603140eaa82c18efcee5aa798635e137d
 Section: base
 Priority: optional
 Description: Ajout de nouvelles fonctionnalités (Ajout de CODESYS), correctifs et améliorations (Correction de l'affichage de la version actuelle de la page d'accueil)
