@@ -46,10 +46,10 @@ Architecture: arm64
 Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
 Depends: libc6 (>= 2.17), nginx, curl, podman, codesyscontrol, tailscale
 Filename: pool/main/hai-pxxx-ai_1.1.5_arm64.deb
-Size: 49298540
-MD5sum: fb0144b77f3c26adf32bc6eee61a860b
-SHA1: 802d8303fe9cbcc750dd8921536134b812d6e456
-SHA256: 7a2739995c32bcbe47a84d602019eaec0afebb1c467b52892bbeff53e55c82cb
+Size: 49294516
+MD5sum: ed93eb1c5906a02ab58215623480bf93
+SHA1: 56b2396ae96996caab290bb2dd5d0155e465b274
+SHA256: a7c92f38d803d023426a28d970bdceb6c53cfe4fba5cae9135879db9dca4e2c2
 Section: base
 Priority: optional
 Description: Correctifs et améliorations (Nettoyage du répertoire utilisateur, etc.)
