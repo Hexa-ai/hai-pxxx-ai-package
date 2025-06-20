@@ -54,3 +54,17 @@ Section: base
 Priority: optional
 Description: Correctifs et améliorations (Nettoyage du répertoire utilisateur, etc.)
 
+Package: hai-pxxx-ai
+Version: 1.1.6
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.17), nginx, curl, podman, codesyscontrol, tailscale
+Filename: pool/main/hai-pxxx-ai_1.1.6_arm64.deb
+Size: 49323588
+MD5sum: c6329009e2d042b5c7668f5fd09207b0
+SHA1: 23cf14c32ed767fe103e7456c5b7d2961261efca
+SHA256: 1cff55cf6ecef7ee331fac8a1ebde65ae5f2fd5683eba48d3214c96464c89b2b
+Section: base
+Priority: optional
+Description: Correctifs (Changement de la page 4G Modem) et améliorations (Envoi de SMS par CODESYS, Changement de mot de passe)
+
