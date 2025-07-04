@@ -74,11 +74,11 @@ Architecture: arm64
 Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
 Depends: libc6 (>= 2.17), nginx, curl, podman, codesyscontrol, tailscale
 Filename: pool/main/hai-pxxx-ai_1.1.7_arm64.deb
-Size: 49347524
-MD5sum: 0150b4a0e15913b2cbcfc5e5d3fe4cf3
-SHA1: ce5f52b0924bd39643458509483db1a4ade4e602
-SHA256: 86a4499c91a80850fcea606154a1ea61a627c712f1db0237fcdccdf0bf409328
+Size: 49343488
+MD5sum: b7f7dccf0f1ce72b3556769aaf22925a
+SHA1: 700b5d7b4b3d207b3957cfa2a61a6d73eaef55b0
+SHA256: 429a04448d638adbf03e6b67f17deecb724374d4a9ecaff51f5c738236e80c67
 Section: base
 Priority: optional
-Description: Correctifs (Changement de la page 4G Modem) et améliorations (Envoi de SMS par CODESYS, Changement de mot de passe)
+Description: Correctifs (Correction de la connexion au Modem 4G)
 
