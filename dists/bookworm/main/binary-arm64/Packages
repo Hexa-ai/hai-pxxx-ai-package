@@ -1,0 +1,354 @@
+Package: codesyscontrol
+Source: codesyscontrol
+Version: 4.14.0.0
+Architecture: all
+Maintainer: CODESYS GmbH
+Filename: pool/main/codesyscontrol_raspberry_4.14.0.0_all.deb
+Size: 32420660
+MD5sum: 0a5ea3f7db83cb3927a5e601ebfabd23
+SHA1: f9cd79e21dcb954137a93cb831f0922c6f91772b
+SHA256: a5d3d2fd7515537b6d8b3bb7fa0d5e9fa34f76b997fe196621e30435bab57590
+Section: base
+Priority: optional
+Description: codesyscontrol based on SDK 3.5.20.40 , from Fri Nov 29 08:46:46 CET 2024 [265], Release build
+
+Package: hai-pxxx-ai
+Version: 1.1.3
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.17), nginx, curl, tailscale, podman
+Filename: pool/main/hai-pxxx-ai_1.1.3_arm64.deb
+Size: 49320164
+MD5sum: 32a8e84c016ab1e0af2104d07fcab506
+SHA1: 99516afe51407d6970f911586aabb6ec63289ca5
+SHA256: 2805eb17df00f10f988d0ce58399c0b167193b471bf88acbdc3a72546331c91f
+Section: base
+Priority: optional
+Description: Application hai-pxxx-ai compilée avec Nuitka et configurée avec Nginx et Tailscale.
+
+Package: hai-pxxx-ai
+Version: 1.1.4
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.17), nginx, curl, tailscale, podman, codesyscontrol
+Filename: pool/main/hai-pxxx-ai_1.1.4_arm64.deb
+Size: 49322344
+MD5sum: 007c08428d450ff035ad0d01c7144ca1
+SHA1: 8bd9759c9cf0c2e1e887ffc477d436823f69190a
+SHA256: 096855af147fba5bb2b56ae49a4c2ed603140eaa82c18efcee5aa798635e137d
+Section: base
+Priority: optional
+Description: Ajout de nouvelles fonctionnalités (Ajout de CODESYS), correctifs et améliorations (Correction de l'affichage de la version actuelle de la page d'accueil)
+
+Package: hai-pxxx-ai
+Version: 1.1.5
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.17), nginx, curl, podman, codesyscontrol, tailscale
+Filename: pool/main/hai-pxxx-ai_1.1.5_arm64.deb
+Size: 49294516
+MD5sum: ed93eb1c5906a02ab58215623480bf93
+SHA1: 56b2396ae96996caab290bb2dd5d0155e465b274
+SHA256: a7c92f38d803d023426a28d970bdceb6c53cfe4fba5cae9135879db9dca4e2c2
+Section: base
+Priority: optional
+Description: Correctifs et améliorations (Nettoyage du répertoire utilisateur, etc.)
+
+Package: hai-pxxx-ai
+Version: 1.1.6
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.17), nginx, curl, podman, codesyscontrol, tailscale
+Filename: pool/main/hai-pxxx-ai_1.1.6_arm64.deb
+Size: 49323588
+MD5sum: c6329009e2d042b5c7668f5fd09207b0
+SHA1: 23cf14c32ed767fe103e7456c5b7d2961261efca
+SHA256: 1cff55cf6ecef7ee331fac8a1ebde65ae5f2fd5683eba48d3214c96464c89b2b
+Section: base
+Priority: optional
+Description: Correctifs (Changement de la page 4G Modem) et améliorations (Envoi de SMS par CODESYS, Changement de mot de passe)
+
+Package: hai-pxxx-ai
+Version: 1.1.7
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.17), nginx, curl, podman, codesyscontrol, tailscale
+Filename: pool/main/hai-pxxx-ai_1.1.7_arm64.deb
+Size: 49343488
+MD5sum: b7f7dccf0f1ce72b3556769aaf22925a
+SHA1: 700b5d7b4b3d207b3957cfa2a61a6d73eaef55b0
+SHA256: 429a04448d638adbf03e6b67f17deecb724374d4a9ecaff51f5c738236e80c67
+Section: base
+Priority: optional
+Description: Correctifs (Correction de la connexion au Modem 4G)
+
+Package: hai-pxxx-ai
+Version: 1.1.8
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.17), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf
+Filename: pool/main/hai-pxxx-ai_1.1.8_arm64.deb
+Size: 49577576
+MD5sum: 377168cb1dd1efbbc3fb03929a05aa1e
+SHA1: e19a339c0381afb2c41edfecdb755e192e977156
+SHA256: d03b80f8fa9b7a74f64445e579bd0353952ce6f852186b229a59dac086eb1ee4
+Section: base
+Priority: optional
+Description: Correctifs (Correction de Nodered avec le Safe-Mode) et améliorations (Partage de connexion internet, démarrage des applications sans carte SD)
+
+Package: hai-pxxx-ai
+Version: 1.2.0
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.0_arm64.deb
+Size: 92731032
+MD5sum: a650f0a20cda6eb963ebedbdf30de95b
+SHA1: 2f747c3f2db59880ca00f3c96d00f1713a6ab90b
+SHA256: 5f01d3aabb89fdf8be59eb38e9dda619599d2b346ca032eea3ec4c3c02abe3a1
+Section: base
+Priority: optional
+Description: Correctifs (Amélioration de la sms_tool) et améliorations (Refonte de la page et du système de Dataplug, SMS sur Nodered ...)
+
+Package: hai-pxxx-ai
+Version: 1.2.10
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.10_arm64.deb
+Size: 93716384
+MD5sum: f331d61784c10b73f7a7f1d42d6dd633
+SHA1: 9fab09d880f026c5e12fd03701e117ac3321bfde
+SHA256: 83c9fdf1203270f286f5133f3235bd871d696a84bc255fe229909259211b97a4
+Section: base
+Priority: optional
+Description: Fix: Update of the storage configuration - Feat: Introduces reboot/shutdown dialogs, and refactors MQTT services.
+
+Package: hai-pxxx-ai
+Version: 1.2.11
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.11_arm64.deb
+Size: 93721816
+MD5sum: 42793bf9de1b7cbf55ee0c6a23e9825f
+SHA1: 3152b15160ed52c25e5ff38aededa5602ad08a6a
+SHA256: 642f82b647f05df229575e7eb00ae4c22dd2049e2decba042fb9d5c842122a59
+Section: base
+Priority: optional
+Description: Fix: Reduce page load time Data-Plug
+
+Package: hai-pxxx-ai
+Version: 1.2.12
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.12_arm64.deb
+Size: 93727976
+MD5sum: 195e8f2b8eee43abf6a25ab56920a038
+SHA1: b7ef7444fd97b7816731f0fafc09c4b4937fcca3
+SHA256: 0a6cfed5343c5bc2b22cda4a0d345369995145e79410e4a858e004986ef44ac6
+Section: base
+Priority: optional
+Description: Fix: Resolves firewall rules limitations and adjusts systemd service timeouts - Feat: Implements memory management configuration for Node-RED.
+
+Package: hai-pxxx-ai
+Version: 1.2.13
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.13_arm64.deb
+Size: 93733772
+MD5sum: a2870f551c14e932aca2d9db8e178adf
+SHA1: 0214045df6b61605228cec6c5f0bb7d89315804c
+SHA256: 1b2107bfb0aefed982bde5b0723d06790afeaf99982b7f4bf38bc9b3f0c8faf2
+Section: base
+Priority: optional
+Description: Fix: grafana.ini volume file remove.
+
+Package: hai-pxxx-ai
+Version: 1.2.14
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.14_arm64.deb
+Size: 93726648
+MD5sum: 2f7b614bc393af66faf80255a7852286
+SHA1: 2268da7a123d06ceeb842ef91944d70765b6adc1
+SHA256: fe6835d4526f8dc6412831de8aac3b7581c9f0144770686f68414c8ad3b0666a
+Section: base
+Priority: optional
+Description: Fix: podman and shared connection error.
+
+Package: hai-pxxx-ai
+Version: 1.2.15
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.15_arm64.deb
+Size: 93715444
+MD5sum: e55dd928b2729957738711884847ee2a
+SHA1: 11d37d3bb78a8d723595a1a32a4f2cec78b24c9f
+SHA256: d0d46cab20deb29b51635301f71d2cbf590b79c32b86fc73ad664377a4a00589
+Section: base
+Priority: optional
+Description: Fix: ignition volumes and postgres port.
+
+Package: hai-pxxx-ai
+Version: 1.2.16
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.16_arm64.deb
+Size: 93731612
+MD5sum: 0288fa92f40817998f5ef6a533c1c544
+SHA1: 7b6f2a587720be659be29fb97f80ef116da6922f
+SHA256: a05995dc405b47497abc955e19a5291bf5df7eedfc03fed56b27256543118999
+Section: base
+Priority: optional
+Description: Fix: Improved Data-Plug, enhanced safety in case of power failure
+
+Package: hai-pxxx-ai
+Version: 1.2.2
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.2_arm64.deb
+Size: 92772384
+MD5sum: aeec76cd7c90e1616a4c2ab644325d92
+SHA1: 888d3803b6641e1d5e8026d4218f39b6ebf884db
+SHA256: 405d174b862444ad6f9ca3e3693a74e9c124c1297b7e3e0ac541d4aaccab11e1
+Section: base
+Priority: optional
+Description: Correctifs (Pagination des variables du Dataplug) et améliorations (Bouton de redémarrage, Interval de collecte des données par input)
+
+Package: hai-pxxx-ai
+Version: 1.2.3
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.3_arm64.deb
+Size: 93094404
+MD5sum: ad72cdcc247064077dbb934ca2047f0f
+SHA1: ebbf8ce010796027ed0008764327e110f750c68d
+SHA256: 4fa9d0ee73befc0437b9f3c05a9099055036163e100035e8db550e0864a74601
+Section: base
+Priority: optional
+Description: Ajout des containers PostgreSQL et PG-Admin + Correctif initialisation SMS + Mise au propre logs
+
+Package: hai-pxxx-ai
+Version: 1.2.4
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.4_arm64.deb
+Size: 93117532
+MD5sum: 32cc96f8eb8acfd8c5d296fa3ea552d8
+SHA1: 1bbda9279978b9855101e5919abb3dc5fa0563a4
+SHA256: ea714ddca925655e93d782c0fd7335929f25d3e19ddb6b854dff600e6c14cefe
+Section: base
+Priority: optional
+Description: fix(modem): Improve modem initialization sequence and update UI icon
+
+Package: hai-pxxx-ai
+Version: 1.2.5
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.5_arm64.deb
+Size: 93109572
+MD5sum: 61dc3499b87a5e9de215f23f51a0bd2c
+SHA1: 5b2c626a5aaadda74fea75a53ac980485131e9d6
+SHA256: c3ff0e71667d7ddc6cbaae8ff03affc8a7c099c56210a99e2725e5ceee7f80aa
+Section: base
+Priority: optional
+Description: fix: Resolved issue where the "Apply" button for Wi-Fi was not always visible
+
+Package: hai-pxxx-ai
+Version: 1.2.6
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.6_arm64.deb
+Size: 93122192
+MD5sum: 41e140db920577fc8deed861b9983c02
+SHA1: fb5d550c19735fedfccfeee3dec4b61dd990f990
+SHA256: 42a241ff174628732a889f12dd29fc03bff821cb1f25387c5f991b7d2e0ea7d9
+Section: base
+Priority: optional
+Description: fix: Check 4G connection status and state + auto modem reset + Podman automatic renumber
+
+Package: hai-pxxx-ai
+Version: 1.2.7
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.7_arm64.deb
+Size: 93411708
+MD5sum: 09e14d24ec1eda0249a88048d7814679
+SHA1: bc484071f5f4f0f698ebbd9442b34834407ccb0a
+SHA256: ffdc6e7c9feb57ecf9bb22b875d5b43f099fab29a8e88b60d5a782f19f67aeeb
+Section: base
+Priority: optional
+Description: fix: Issues with tethering, 4G connection, and Tailscale
+
+Package: hai-pxxx-ai
+Version: 1.2.8
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.8_arm64.deb
+Size: 93401184
+MD5sum: 3dce8e65cebc2cb3a2ec3fa9efc8cdbd
+SHA1: 6f5df091a1884df1aa18835f6bf3e0eb4cab997e
+SHA256: 18a5c54ab60073a3fb5b4c56ac38591df5345a31aafad7add8347fa37c83b199
+Section: base
+Priority: optional
+Description: fix: Tailscale subnet routing error with connection sharing
+
+Package: hai-pxxx-ai
+Version: 1.2.9
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.9_arm64.deb
+Size: 93536336
+MD5sum: a6c4fc064d637513c4cd3f4162a479cb
+SHA1: 0843693ddcbe18e6ff6d78cdad3d5a374ac1adac
+SHA256: 28811be95e0618be3a2f84363c99aec8ef9d15dcf53e08d6cd2453dfe8ea310a
+Section: base
+Priority: optional
+Description: Fix: Improves Tailscale integration, optimizes the configurator interface, and integrates Data-Plug data into Grafana
+
