@@ -13,62 +13,6 @@ Priority: optional
 Description: codesyscontrol based on SDK 3.5.20.40 , from Fri Nov 29 08:46:46 CET 2024 [265], Release build
 
 Package: hai-pxxx-ai
-Version: 1.1.3
-Architecture: arm64
-Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
-Depends: libc6 (>= 2.17), nginx, curl, tailscale, podman
-Filename: pool/main/hai-pxxx-ai_1.1.3_arm64.deb
-Size: 49320164
-MD5sum: 32a8e84c016ab1e0af2104d07fcab506
-SHA1: 99516afe51407d6970f911586aabb6ec63289ca5
-SHA256: 2805eb17df00f10f988d0ce58399c0b167193b471bf88acbdc3a72546331c91f
-Section: base
-Priority: optional
-Description: Application hai-pxxx-ai compilée avec Nuitka et configurée avec Nginx et Tailscale.
-
-Package: hai-pxxx-ai
-Version: 1.1.4
-Architecture: arm64
-Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
-Depends: libc6 (>= 2.17), nginx, curl, tailscale, podman, codesyscontrol
-Filename: pool/main/hai-pxxx-ai_1.1.4_arm64.deb
-Size: 49322344
-MD5sum: 007c08428d450ff035ad0d01c7144ca1
-SHA1: 8bd9759c9cf0c2e1e887ffc477d436823f69190a
-SHA256: 096855af147fba5bb2b56ae49a4c2ed603140eaa82c18efcee5aa798635e137d
-Section: base
-Priority: optional
-Description: Ajout de nouvelles fonctionnalités (Ajout de CODESYS), correctifs et améliorations (Correction de l'affichage de la version actuelle de la page d'accueil)
-
-Package: hai-pxxx-ai
-Version: 1.1.5
-Architecture: arm64
-Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
-Depends: libc6 (>= 2.17), nginx, curl, podman, codesyscontrol, tailscale
-Filename: pool/main/hai-pxxx-ai_1.1.5_arm64.deb
-Size: 49294516
-MD5sum: ed93eb1c5906a02ab58215623480bf93
-SHA1: 56b2396ae96996caab290bb2dd5d0155e465b274
-SHA256: a7c92f38d803d023426a28d970bdceb6c53cfe4fba5cae9135879db9dca4e2c2
-Section: base
-Priority: optional
-Description: Correctifs et améliorations (Nettoyage du répertoire utilisateur, etc.)
-
-Package: hai-pxxx-ai
-Version: 1.1.6
-Architecture: arm64
-Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
-Depends: libc6 (>= 2.17), nginx, curl, podman, codesyscontrol, tailscale
-Filename: pool/main/hai-pxxx-ai_1.1.6_arm64.deb
-Size: 49323588
-MD5sum: c6329009e2d042b5c7668f5fd09207b0
-SHA1: 23cf14c32ed767fe103e7456c5b7d2961261efca
-SHA256: 1cff55cf6ecef7ee331fac8a1ebde65ae5f2fd5683eba48d3214c96464c89b2b
-Section: base
-Priority: optional
-Description: Correctifs (Changement de la page 4G Modem) et améliorations (Envoi de SMS par CODESYS, Changement de mot de passe)
-
-Package: hai-pxxx-ai
 Version: 1.1.7
 Architecture: arm64
 Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
@@ -216,10 +160,10 @@ Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontro
 Conflicts: telegraf
 Replaces: telegraf
 Filename: pool/main/hai-pxxx-ai_1.2.16_arm64.deb
-Size: 93731612
-MD5sum: 0288fa92f40817998f5ef6a533c1c544
-SHA1: 7b6f2a587720be659be29fb97f80ef116da6922f
-SHA256: a05995dc405b47497abc955e19a5291bf5df7eedfc03fed56b27256543118999
+Size: 93731060
+MD5sum: 3aab6e8d5a10f457bbcaffac85fc3d35
+SHA1: 7f157d4058753ccd33d352f3e8f467b2efbf5059
+SHA256: 8fd40d879c574a9d684c91d5184b0514a1b56643b02b936e14c929f751bf72b9
 Section: base
 Priority: optional
 Description: Fix: Improved Data-Plug, enhanced safety in case of power failure
