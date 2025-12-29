@@ -160,10 +160,10 @@ Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontro
 Conflicts: telegraf
 Replaces: telegraf
 Filename: pool/main/hai-pxxx-ai_1.2.16_arm64.deb
-Size: 93731060
-MD5sum: 3aab6e8d5a10f457bbcaffac85fc3d35
-SHA1: 7f157d4058753ccd33d352f3e8f467b2efbf5059
-SHA256: 8fd40d879c574a9d684c91d5184b0514a1b56643b02b936e14c929f751bf72b9
+Size: 93728836
+MD5sum: 9346927a84589b85c3479e166567f5e9
+SHA1: 3772bf5eea439886e463ec0139c0ae3edb17c6e3
+SHA256: 7692871cd12af7e22ea113f8c7c5af5016acdd5addf7db507c57af933f528a35
 Section: base
 Priority: optional
 Description: Fix: Improved Data-Plug, enhanced safety in case of power failure
