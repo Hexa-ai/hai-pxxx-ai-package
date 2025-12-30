@@ -169,6 +169,22 @@ Priority: optional
 Description: Fix: Improved Data-Plug, enhanced safety in case of power failure
 
 Package: hai-pxxx-ai
+Version: 1.2.17
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.17_arm64.deb
+Size: 93756900
+MD5sum: 812f7503387be68f9bb4a1f0ac87b0a2
+SHA1: d0cef0bb9473c9bed49aebdfdfb04230a2cfc2ab
+SHA256: b757d26ce80c3ddcae54adce8e7b4665f1f5e8419aa4349be0c405a080ee1188
+Section: base
+Priority: optional
+Description: Feat: Added new dashboards for Grafana
+
+Package: hai-pxxx-ai
 Version: 1.2.2
 Architecture: arm64
 Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
