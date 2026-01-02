@@ -185,6 +185,22 @@ Priority: optional
 Description: Feat: Added new dashboards for Grafana
 
 Package: hai-pxxx-ai
+Version: 1.2.18
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq, netfilter-persistent
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.18_arm64.deb
+Size: 93767880
+MD5sum: a316db52293d81387de23c3337354641
+SHA1: 89603c8ddfb1aac96fd4395519bf9b78bafe3f8c
+SHA256: 0ec075bccfc0236800258fbaadb73d526da87334d23ab3775bad059e1eab61bf
+Section: base
+Priority: optional
+Description: Feat: Added a button to reset firewall rules
+
+Package: hai-pxxx-ai
 Version: 1.2.2
 Architecture: arm64
 Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
