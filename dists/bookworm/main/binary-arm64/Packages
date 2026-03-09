@@ -34,10 +34,10 @@ Architecture: arm64
 Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
 Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq, netfilter-persistent
 Filename: pool/main/hai-pxxx-ai_1.2.19_arm64.deb
-Size: 71894916
-MD5sum: 0b9b2aadcd2a3e0049ee1109f5306aa3
-SHA1: aebb7bccf3400732a0041adeadc3e19c94155613
-SHA256: e2bc3e44b01e9562fdd8d897112247bc671cdda52c3e5959c661e98ed22bb08c
+Size: 71894888
+MD5sum: 185eb3338626f480b25b60b6ffc3f520
+SHA1: 388cc42422c2522acb15a2f8410666d97ba32534
+SHA256: 1c37bed517887886bdea63444ab2e4149f12161fcd80ade16d23465bb732d834
 Section: base
 Priority: optional
 Description: Fix: Migration du dépôt apt GitHub -> Netlify
