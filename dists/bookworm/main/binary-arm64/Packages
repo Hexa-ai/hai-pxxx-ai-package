@@ -1,0 +1,44 @@
+Package: codesyscontrol
+Source: codesyscontrol
+Version: 4.14.0.0
+Architecture: all
+Maintainer: CODESYS GmbH
+Filename: pool/main/codesyscontrol_raspberry_4.14.0.0_all.deb
+Size: 32420660
+MD5sum: 0a5ea3f7db83cb3927a5e601ebfabd23
+SHA1: f9cd79e21dcb954137a93cb831f0922c6f91772b
+SHA256: a5d3d2fd7515537b6d8b3bb7fa0d5e9fa34f76b997fe196621e30435bab57590
+Section: base
+Priority: optional
+Description: codesyscontrol based on SDK 3.5.20.40 , from Fri Nov 29 08:46:46 CET 2024 [265], Release build
+
+Package: hai-pxxx-ai
+Version: 1.2.18
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq, netfilter-persistent
+Conflicts: telegraf
+Replaces: telegraf
+Filename: pool/main/hai-pxxx-ai_1.2.18_arm64.deb
+Size: 93767880
+MD5sum: a316db52293d81387de23c3337354641
+SHA1: 89603c8ddfb1aac96fd4395519bf9b78bafe3f8c
+SHA256: 0ec075bccfc0236800258fbaadb73d526da87334d23ab3775bad059e1eab61bf
+Section: base
+Priority: optional
+Description: Feat: Added a button to reset firewall rules
+
+Package: hai-pxxx-ai
+Version: 1.2.19
+Architecture: arm64
+Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
+Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq, netfilter-persistent
+Filename: pool/main/hai-pxxx-ai_1.2.19_arm64.deb
+Size: 71894916
+MD5sum: 0b9b2aadcd2a3e0049ee1109f5306aa3
+SHA1: aebb7bccf3400732a0041adeadc3e19c94155613
+SHA256: e2bc3e44b01e9562fdd8d897112247bc671cdda52c3e5959c661e98ed22bb08c
+Section: base
+Priority: optional
+Description: Fix: Migration du dépôt apt GitHub -> Netlify
+

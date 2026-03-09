@@ -1,0 +1,16 @@
+Origin: Mon Depot APT Personnalise
+Label: Mon Depot
+Suite: bookworm
+Codename: bookworm
+Components: main
+Architectures: arm64
+Date: Mon, 09 Mar 2026 15:04:48 +0000
+MD5Sum:
+ d1be64ca096bcc4fe0de84493c6e3dee 1696 main/binary-arm64/Packages
+ 00b4a6a47faeb2d4b23be34fc66ec895 854 main/binary-arm64/Packages.gz
+SHA1:
+ d9099499bc8a9ce7472f990a1184accd1dc7b88b 1696 main/binary-arm64/Packages
+ 3ff995108eb54bcf8fea9dbeb4ea82656c8184be 854 main/binary-arm64/Packages.gz
+SHA256:
+ 4bfa0a2e791b1e92c69abcccc1985d4bc5808021ed7553b01f29e9dfcd459961 1696 main/binary-arm64/Packages
+ 5c2ce64431793b0ae056fd79a74cc89ef0a15b45c37a89902b438b1fec33c9db 854 main/binary-arm64/Packages.gz
