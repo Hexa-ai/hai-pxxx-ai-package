@@ -31,14 +31,17 @@ Description: Feat: Added a button to reset firewall rules
 Package: hai-pxxx-ai
 Version: 1.2.19
 Architecture: arm64
-Maintainer: Julien TALBOURDET <contact@hexa-ai.fr>
-Depends: libc6 (>= 2.36), libssl3 (>= 3.0.0), nginx, curl, podman, codesyscontrol, tailscale, dnsmasq, iptables-persistent, debconf, jq, netfilter-persistent
+Maintainer: Hexa-AI <contact@hexa-ai.fr>
 Filename: pool/main/hai-pxxx-ai_1.2.19_arm64.deb
-Size: 71894888
-MD5sum: 185eb3338626f480b25b60b6ffc3f520
-SHA1: 388cc42422c2522acb15a2f8410666d97ba32534
-SHA256: 1c37bed517887886bdea63444ab2e4149f12161fcd80ade16d23465bb732d834
-Section: base
+Size: 1180
+MD5sum: 63e798930e8701957718ffcb10b580fd
+SHA1: 0c25dfce013915a91ff217c4b09b28d4acd65ed7
+SHA256: 4c325a90ad05ba69b0ab651dee2977c3e5101eadb03e117adb912aaaad94df2a
+Section: utils
 Priority: optional
-Description: Fix: Migration du dépôt apt GitHub -> Netlify
+Description: Migration du depot APT Hexa-AI (GitHub -> Netlify)
+ Ce paquet effectue uniquement la migration de l'URL du depot APT
+ Hexa-AI depuis hexa-ai.github.io vers cosmic-pastelito-47ddc9.netlify.app.
+ Il ne contient aucun fichier supplementaire et peut etre desinstalle
+ une fois la migration effectuee.
 
